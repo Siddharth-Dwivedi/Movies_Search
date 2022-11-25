@@ -1,0 +1,90 @@
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(229, 229, 229);
+}
+
+#search h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+#search {
+    margin-top: 20px;
+    border: 5px solid rgb(179, 177, 177);
+}
+
+#search input {
+    font-size: large;
+    padding-left: 7px;
+    height: 40px;
+    margin: 20px;
+    width: 300px;
+}
+
+
+#mapp {
+    width: 90vw;
+    margin: auto
+}
+
+#application {
+    border: 5px solid rgb(179, 177, 177);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px
+}
+
+#buttons {
+    padding: 9px;
+    width: 90px;
+    font-size: large;
+}
+#bgChange {
+    display: flex;
+    padding-left: 50px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding-right: 50px;
+    height: 50px;
+    border-radius: 0 0 15px 15px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    width: 40vw;
+}
+
+#bgChange input {
+    scale: 2;
+}
+
+
+input[id="grey"]:checked {
+    accent-color: grey;
+}
+input[id="pink"]:checked {
+    accent-color: pink;
+}
+
+
+input[id="green"]:checked {
+    accent-color: rgb(25, 255, 63);
+}
+
+input[id="black"]:checked {
+ 
+    accent-color: rgb(0, 0, 0);
+}
+input[id="blue"]:checked {
+    accent-color: rgb(64, 64, 255);
+}
